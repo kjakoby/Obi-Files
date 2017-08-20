@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Contact Us</title>
+    </head>
+    <body>
+        <br/>
+        <form action="contactUs.html" method="post"></form>
+        <div style=padding:10px>
+            <label id="FirstName" for="FirstName"> First Name: </label>    
+            <input type="text" name="FirstName" id="FirstName">
+        </div>    
+            <br/>
+        <div style=padding:10px>
+            <label id="LastName" for="LastName"> Last Name: </label>
+            <input type="text" name="LastName" id="LastName">
+        </div>
+            <br/>
+        <div style=padding:10px>
+            <label id="Email" for="Email" > Email: </label>
+            <input type="text" name="Email" id="Email" >
+        </div>
+            <br/>
+        <div style=padding:10px>
+            <label id="TypeOfLicense" for="TypeOfLicense">Type of License:</label>
+            <input type="radio" name="answer" value="Business" checked/>Business
+            <input type="radio" name="answer" value="Personal" />Personal
+        </div>
+            <br/>
+        <div style=padding:10px>
+            <label for="Reason" id="Reason">Reason:</label>
+            <select name="Reason">
+                <option value="SelectAReason">Select a reason</option>
+                <option value="SoftwareSupport">Software Support</option>
+                <option value="HardwareSupport">Hardware Support</option>
+                <option value="Information Request">Information Request</option>
+            </select>
+        </div>
+            <br/>
+        <div style=padding:10px>
+            <label for="AdditionalInformation" id="AdditionalInformation">Additional Information:</label>
+            <textarea name="Additional Information" item-width="200px" item-height="300px"></textarea>
+        </div>
+            <br/>
+        <div style=padding:10px>
+            <input type="checkbox" name="Checkbox" value="agree" />I have read the terms of service
+        </div>
+            <br/>
+        <div style=padding:10px>
+            <input type="submit" value="Send Request"/>
+
+    </body>    
+</html>
