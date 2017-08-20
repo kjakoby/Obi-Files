@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" type="text/css" href="restaurantstyles.css" />
+    <style>
+        label {
+            width:10px; 
+            margin-right:5px;     
+        }
+        div {
+            padding:10px;
+            text-align:center;
+        }
+    </style>    
+    </head>
+    <body>
+        <h1>BFAST 24/7</h1>
+        <hr/>
+        <br/>
+        &nbsp;&nbsp; 
+        <a href="restauranthome.html" padding="10px">Home</a> &nbsp;&nbsp;&nbsp;
+        <a href="restaurantMenu.html">Menu</a> &nbsp;&nbsp;&nbsp;
+        <a href="restaurantContactUs.html">Contact Us</a>
+        <br/>
+        <br/>
+        <hr/>
+        <br/>
+            <form action="restaurantContactUs.html" method="post"></form>
+            <div>
+                <label id="Name" for="Name">Name: </label>&nbsp;&nbsp;&nbsp;    
+                <input type="text" name="Name" id="Name">
+            </div>
+            <div>
+                <label id="Email" for="Email">Email: </label>&nbsp;&nbsp;&nbsp;    
+                <input type="text" name="Email" id="Email">
+            </div>
+            <div>
+                <label id="Phone" for="Phone">Phone: </label>&nbsp;&nbsp;&nbsp;    
+                <input type="text" name="Phone" id="Phone">
+            </div>
+            <div>
+                    <label for="ReasonForInquiry" id="ReasonForInquiry">Reason for Inquiry: </label>&nbsp;&nbsp;&nbsp;
+                    <select name="ReasonForInquiry">
+                        <option value="Catering">Catering</option>
+                        <option value="PrivateParty">Private Party</option>
+                        <option value="Feedback">Feedback</option>
+                        <option value="Other">Other</option>
+                    </select>
+            </div>
+            <div>
+                <label for="AdditionalInformation" id="AdditionalInformation">Additional Information:</label>&nbsp;&nbsp;&nbsp;
+                <textarea name="Additional Information"></textarea>
+            </div>
+            <div>
+                <label id="HaveYouBeenToTheRestaurant" for="HaveYouBeenToTheRestaurant">Have you been to the restaurant?</label>
+                <input type="radio" name="answer" value="No" checked/>No
+                <input type="radio" name="answer" value="Yes" />Yes
+            </div>
+            <div>
+                <label for="BestDaysToContactYou">Best days to contact you: </label>
+                <input type="checkbox" name="Checkbox" value="Monday" />M &nbsp;
+                <input type="checkbox" name="Checkbox" value="Tuesday" />T &nbsp;
+                <input type="checkbox" name="Checkbox" value="Wednesday" />W &nbsp;
+                <input type="checkbox" name="Checkbox" value="Thursday" />Th &nbsp;
+                <input type="checkbox" name="Checkbox" value="Friday" />F &nbsp;
+            </div>
+            <div>
+                    <input type="submit" value="Send Request"/>
+            </div>
+        </center>
+        <br/>
+        <hr/>
+    </body>
+    <footer>
+        <h4>4554 Sunnyside St, Louisville, Kentucy, 40220</h4>
+        <h4>5028675309</h4>
+    </footer>
+</html>
