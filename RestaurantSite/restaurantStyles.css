@@ -11,11 +11,23 @@ footer {
     text-align: center;
 }
 th {
-    font-size: larger
+    font-size: larger;
 }  
 body {
-    background-color: lightblue
+    background-color: lightblue;
 }
 label {
-    font-weight: bold
+    font-weight: bold;
 }  
+a:visited {
+    color: red;
+}
+a:hover {
+    font-weight: bold;
+}
+a:active {
+    text-decoration: none;
+}
+caption {
+    text-align: justify
+}
