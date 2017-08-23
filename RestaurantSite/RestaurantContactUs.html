@@ -2,7 +2,17 @@
 <html>
     <head>
         <title>Home Page</title>
-        <link rel="stylesheet" type="text/css" href="restaurantstyles.css" />    
+        <link rel="stylesheet" type="text/css" href="restaurantstyles.css" />
+    <style>
+        label {
+            width:10px; 
+            margin-right:5px;     
+        }
+        div {
+            padding:10px;
+            text-align:center;
+        }
+    </style>    
     </head>
     <body>
         <h1>BFAST 24/7</h1>
@@ -16,21 +26,20 @@
         <br/>
         <hr/>
         <br/>
-        <center>
             <form action="restaurantContactUs.html" method="post"></form>
-            <div style=padding:10px>
+            <div>
                 <label id="Name" for="Name">Name: </label>&nbsp;&nbsp;&nbsp;    
                 <input type="text" name="Name" id="Name">
             </div>
-            <div style=padding:10px>
+            <div>
                 <label id="Email" for="Email">Email: </label>&nbsp;&nbsp;&nbsp;    
                 <input type="text" name="Email" id="Email">
             </div>
-            <div style=padding:10px>
+            <div>
                 <label id="Phone" for="Phone">Phone: </label>&nbsp;&nbsp;&nbsp;    
                 <input type="text" name="Phone" id="Phone">
             </div>
-            <div style=padding:10px>
+            <div>
                     <label for="ReasonForInquiry" id="ReasonForInquiry">Reason for Inquiry: </label>&nbsp;&nbsp;&nbsp;
                     <select name="ReasonForInquiry">
                         <option value="Catering">Catering</option>
@@ -39,16 +48,16 @@
                         <option value="Other">Other</option>
                     </select>
             </div>
-            <div style=padding:10px>
+            <div>
                 <label for="AdditionalInformation" id="AdditionalInformation">Additional Information:</label>&nbsp;&nbsp;&nbsp;
                 <textarea name="Additional Information"></textarea>
             </div>
-            <div style=padding:10px>
+            <div>
                 <label id="HaveYouBeenToTheRestaurant" for="HaveYouBeenToTheRestaurant">Have you been to the restaurant?</label>
                 <input type="radio" name="answer" value="No" checked/>No
                 <input type="radio" name="answer" value="Yes" />Yes
             </div>
-            <div style=padding:10px>
+            <div>
                 <label for="BestDaysToContactYou">Best days to contact you: </label>
                 <input type="checkbox" name="Checkbox" value="Monday" />M &nbsp;
                 <input type="checkbox" name="Checkbox" value="Tuesday" />T &nbsp;
@@ -56,7 +65,7 @@
                 <input type="checkbox" name="Checkbox" value="Thursday" />Th &nbsp;
                 <input type="checkbox" name="Checkbox" value="Friday" />F &nbsp;
             </div>
-            <div style=padding:10px;>
+            <div>
                     <input type="submit" value="Send Request"/>
             </div>
         </center>
